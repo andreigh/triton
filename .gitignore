@@ -7,6 +7,7 @@ python/triton.egg-info/
 python/triton/_C/libtriton.pyd
 python/triton/_C/libtriton.so
 python/triton/_C/triton.dll
+python/triton/_C
 
 # Python caches
 __pycache__/
@@ -38,3 +39,11 @@ docs/dialects/
 docs/getting-started/tutorials
 !python/tutorials/*.py
 !python/tutorials/*.rst
+
+# Makefiles and other intermediate files
+**/cmake_install.cmake
+**/CTestTestfile.cmake
+CMakeSettings.json
+DartConfiguration.tcl
+tablegen_compile_commands.yml
+test/lit.site.cfg.py
